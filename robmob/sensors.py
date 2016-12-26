@@ -39,6 +39,7 @@ class Sensor:
             return self.buffer[-1]
         except IndexError:
             raise IndexError('Le buffeur du capteur est vide')
+            # print('Le buffeur du capteur est vide')
 
 
     def read_buffer(self):
